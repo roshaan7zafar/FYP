@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- Start / Stop discovery buttons  -->
+    <Button
+        android:id="@+id/start_discovery"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="startDiscovery"
+        android:text="@string/start_discovery_text"/>
+
+    <Button
+        android:id="@+id/stop_discovery"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="stopDiscovery"
+        android:text="@string/stop_discovery_text"/>
+
+    <LinearLayout
+        android:id="@+id/layout_for_connection_btns"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_below="@+id/stop_discovery"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/discovery_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/discovery_status_text"
+            android:textSize="18sp" />
+
+    <!-- Connect to FLIR ONE / Emulators buttons  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/connect_flir_one"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="connectFlirOne"
+                android:text="@string/connect_f1_text" />
+
+            <Button
+                android:id="@+id/connect_s1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="connectSimulatorOne"
+                android:text="@string/connect_sim1_text" />
+
+            <Button
+                android:id="@+id/disconnect_any"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="disconnect"
+                android:text="@string/disconnect_text" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/connection_status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/connection_status_text"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="315dp">
+
+            <ImageView
+                android:id="@+id/msx_image"
+                android:layout_width="400dp"
+                android:layout_height="427dp"
+                android:contentDescription="image with IR and visual data mixed"
+                android:maxWidth="50dp"
+                android:minWidth="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_dark"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelText"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:text="Label"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ConfidenceText"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Confidence"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_light"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/label1"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:text="1."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Confidence1"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_light"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label2"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:text="2."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Confidence2"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_light"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label3"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:text="3."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Confidence3"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

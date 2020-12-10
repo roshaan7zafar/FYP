@@ -1,2 +1,2 @@
-# FYP
-this is my final year project known as thermal peek
+# ABSTRACT
+This is my final year project known as thermal peek

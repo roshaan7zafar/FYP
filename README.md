@@ -86,5 +86,15 @@ The scope of the project can be defined in terms of following objectives:
 • Making an android app that takes input feed from FLIR one thermal camera and image classifier is applied on it
 
 
+# 1.4   Objective
+Objectives of the project are as follows:
+
+• Data collection with Seek Thermal camera and Flir thermal camera
+
+• Training CNN model
+
+• Integration of Flir camera with mobile
+
+• Real time classification of objects
 
 

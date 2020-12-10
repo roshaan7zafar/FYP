@@ -70,7 +70,7 @@ The discovery of the infrared goes back in 1800 by Sir Frederick William Hersche
 Now having the temperature pattern across different colors, he wanted to extend his research beyond the colors especially red color. He concluded that the temperature was higher in this region than the region before.
 The range of infrared radiation is between microwave and visible part of the spectrum. The infrared radiation originates due to heat or thermal radiation. If the temperature of any object is 0 Kelvin or -273.15 Celsius, it will emit radiation in the range of infrared. 
  
-
+![](images_readme/spectrum.png)
 
 Visualizing diminished and faded objects has always been a hurdle in human day to day life. It has always been desired that clear and unambiguous things can be seen even if it is dark and in faded light. It’s really important to be aware of surrounding so that one is able to know what’s happening nearby. Therefore, that said, anyone can be able to continue to resume the activities he/she are doing if he/she exactly classifies what objects are there in front of him/her.
 

@@ -77,5 +77,14 @@ Visualizing diminished and faded objects has always been a hurdle in human day t
 # 1.2   Motivation
 It’s natural and easy to do nearly anything in the daylight or if there is sufficient light such that our human eye can easily detect things and see what exactly it is. When you know what exactly you have in nearby environment it becomes easy for you to proceed with you intended activities but things become quite opposite when you want to do same things in the dark because human sight only ranges in visible spectrum.
 
+# 1.3   Scope
+The aim of the project is to make a mobile app which will initiated upon connecting FLIR one thermal camera to android phone. After that app will be launched which will thermally receive input in real time and classify them as car, cat and humans.
+The scope of the project can be defined in terms of following objectives:
+
+• Train deep learning model for image classification to be used in android app
+
+• Making an android app that takes input feed from FLIR one thermal camera and image classifier is applied on it
+
+
 
 

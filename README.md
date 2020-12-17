@@ -132,4 +132,19 @@ The difference of both visualization is that night vision cameras focuses more o
 
 ![](images_readme/medical.png)
 
-## Chapter 3: Methodology
+# Chapter 3: Methodology
+
+# 3.1  System Level Diagram
+
+
+In the system above initially the custom data has been collected with the Flir as well as Seek thermal mobile cameras. After that data acquisition phase comes in which data is acquired in a particular dimension 224x224 and images get normalized in rgb format. Then this data is feed into neural nets in our case which is MobileNets and image classification is applied upon it. From here thae model parameters are fine-tuned so that model accuracy can be evaluated in further stage. After having satisfying enough accuracy, model is deployed on android app. Flir camera is integrated with the help of software development kit (SDK) in order to get camera input feed in our app. Eventually, the image classifier is applied to the incoming feed from the camera that finally displays the result as cat, car and human.
+
+# 3.2  Software
+Before starting with hardware part, software part has to be prepared so that when its bugs free and it is at its full performance and desired accuracy it could be deployed on hardware.
+
+# 3.2.1  Knowledge base 
+An image classifier algorithm is designed using MobileNet architecture whose sole purpose is to run on client side inference without using cloud services. This particular neural net which is known as MobileNet is used due to its light weight and faster speed so that when the algorithm is deployed on FLIR one camera it will easily run the mobile android application without crashing or interruptions.
+
+# 3.3  Data collection
+A total of 7200 training images were collected using seek thermal images for 3 different classes with the help of seek thermal camera and image classification model was trained on them.
+

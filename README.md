@@ -111,6 +111,9 @@ Generally, if the object are not emitting much of heat they are given shades of 
 
 Grey scale image is also used by some thermal cameras, for example Cop helicopters use it to identify suspects.
 
+![](images_readme/flir_imaging.png)
+
+
 # 2.3  How Its Different From Night Vision
 Night vision also resemble thermal imaging in some aspect like they both are used during night and dim light areas for visualization but unlike thermal imaging it does not let one know about heat temperature distributions. 
         

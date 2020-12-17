@@ -25,7 +25,7 @@ Safety and security has become a concern on every level whether it is on individ
 
 3.2	Software	
 
-    Knowledge Base 
+3.2.1	Knowledge Base 
 
 3.3	Data Collection	
 
@@ -35,13 +35,13 @@ Safety and security has become a concern on every level whether it is on individ
 
 3.6	Software Tools 
 	
-    Tenosrflow Lite Framework 
+3.6.1	Tenosrflow Lite Framework 
 	
-    Android Studio 
+3.6.2	Android Studio 
 	
-    Flir SDK 
+3.6.3	Flir SDK 
 	
-    Mobile App Screen 
+3.6.4	Mobile App Screen 
 
 3.7	Hardware	
 

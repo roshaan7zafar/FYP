@@ -107,4 +107,16 @@ The better explain the overview of thermal imaging is shown in the below figure 
 # 2.2  How Does Thermal Camera Works
 Basically talking about thermal imaging, thermal imaging helps viewer in seeing objects that emits radiation. Thermal cameras are used for recording temperature measurements of different objects and then it gives each color according to its extend of heat or radiation emission. In simple terms it gives one overall idea about general heat distributions of the surrounding objects.
 Generally, if the object are not emitting much of heat they are given shades of lighter color such as blue or green while those which are warmer object are assigned red or crimson etc.
-Grey scale image is also used by some thermal cameras, for example Cop helicopters use it to identify suspects
+Grey scale image is also used by some thermal cameras, for example Cop helicopters use it to identify suspects.
+
+# 2.3  How Its Different From Night Vision
+Night vision also resemble thermal imaging in some aspect like they both are used during night and dim light areas for visualization but unlike thermal imaging it does not let one know about heat temperature distributions. 
+        
+For example, if we talk about real scenario where night vision comes into play is that Cops use it in their helicopters so that they can differentiate the suspect and make him standout from others. This also makes far easier if there is day time and goal is to identify someone which is blending in the surroundings to hide oneself. 
+       
+The difference of both visualization is that night vision cameras focuses more on capturing shorter wavelengths of infrared while thermal cameras has ability to capture both longer and shorter wavelengths of infrared.
+# 2.4  Applications of thermal Imaging
+• Security surveillance
+• Tourists exploration in darker areas
+• Medical diagnosis of diseases
+

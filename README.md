@@ -149,3 +149,6 @@ An image classifier algorithm is designed using MobileNet architecture whose sol
 # 3.3  Data collection
 A total of 7200 training images were collected using seek thermal images for 3 different classes with the help of seek thermal camera and image classification model was trained on them.
 
+![](images_readme/seek_train.png)
+
+

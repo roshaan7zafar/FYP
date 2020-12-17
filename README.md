@@ -102,3 +102,9 @@ Objectives of the project are as follows:
 # 2.1  Thermal Imaging Camera
 The better explain the overview of thermal imaging is shown in the below figure in which there is infrared energy source emitting ‘A’ from object which is directed towards the camera lens ‘B’ and beyond the camera lens there is detector for IR radiation ‘C’. From here the thermal detector passes information which is received by sensor ‘D’ for image to be processed. Sensors finally convert the data from detector into an image ‘E’ which can be watched on monitor or any other screen.
 
+![](images_readme/thermal_imaging_overview.png)
+
+# 2.2  How Does Thermal Camera Works
+Basically talking about thermal imaging, thermal imaging helps viewer in seeing objects that emits radiation. Thermal cameras are used for recording temperature measurements of different objects and then it gives each color according to its extend of heat or radiation emission. In simple terms it gives one overall idea about general heat distributions of the surrounding objects.
+Generally, if the object are not emitting much of heat they are given shades of lighter color such as blue or green while those which are warmer object are assigned red or crimson etc.
+Grey scale image is also used by some thermal cameras, for example Cop helicopters use it to identify suspects

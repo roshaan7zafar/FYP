@@ -98,3 +98,4 @@ Objectives of the project are as follows:
 • Real time classification of objects
 
 
+# Chapter 2: Thermal and IR Imaging 

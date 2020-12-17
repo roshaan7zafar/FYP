@@ -151,4 +151,6 @@ A total of 7200 training images were collected using seek thermal images for 3 d
 
 ![](images_readme/seek_train.png)
 
+Similarly, a total of 654 images were collected with FLIR one mobile camera for testing purposes in order to test the model accuracy in real time as well as in simulation.
 
+![](images_readme/flir_test.png)

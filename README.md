@@ -136,6 +136,7 @@ The difference of both visualization is that night vision cameras focuses more o
 
 # 3.1  System Level Diagram
 
+![](images_readme/systemlvl.png)
 
 In the system above initially the custom data has been collected with the Flir as well as Seek thermal mobile cameras. After that data acquisition phase comes in which data is acquired in a particular dimension 224x224 and images get normalized in rgb format. Then this data is feed into neural nets in our case which is MobileNets and image classification is applied upon it. From here thae model parameters are fine-tuned so that model accuracy can be evaluated in further stage. After having satisfying enough accuracy, model is deployed on android app. Flir camera is integrated with the help of software development kit (SDK) in order to get camera input feed in our app. Eventually, the image classifier is applied to the incoming feed from the camera that finally displays the result as cat, car and human.
 

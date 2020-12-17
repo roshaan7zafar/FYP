@@ -132,4 +132,4 @@ The difference of both visualization is that night vision cameras focuses more o
 
 ![](images_readme/medical.png)
 
-# Chapter 3: Methodology
+## Chapter 3: Methodology

@@ -128,7 +128,7 @@ The difference of both visualization is that night vision cameras focuses more o
 • Medical diagnosis of diseases
 
 <div align="center">
-<img src=![](images_readme/security.png) >
+<![](images_readme/security.png) >
 <p>Perfectly balanced</p>
 </div>
 

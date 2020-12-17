@@ -100,5 +100,5 @@ Objectives of the project are as follows:
 
 # Chapter 2: Thermal and IR Imaging 
 # 2.1  Thermal Imaging Camera
-The better explain the overview of thermal imaging is shown in the below figure in which there is infrared energy source emitting ‘A’ from object which is directed towards the camera lens ‘B’ and beyond the camera lens there is detector for IR radiation ‘C’. From here the thermal detector passes information which is received by sensor ‘D’ for image to be processed. Sensors finally convert the data from detector into an image ‘E’ which can be watched on monitor or any other screen
+The better explain the overview of thermal imaging is shown in the below figure in which there is infrared energy source emitting ‘A’ from object which is directed towards the camera lens ‘B’ and beyond the camera lens there is detector for IR radiation ‘C’. From here the thermal detector passes information which is received by sensor ‘D’ for image to be processed. Sensors finally convert the data from detector into an image ‘E’ which can be watched on monitor or any other screen.
 

@@ -156,13 +156,17 @@ Similarly, a total of 654 images were collected with FLIR one mobile camera for 
 ![](images_readme/flir_test.png)
 
 
-#3.4  MobileNet Architecture
+# 3.4  MobileNet Architecture
 
 Convolution neural network, nowadays, can be found nearly in every deep learning and computer vision applications. The trend that has been around for a while was that deeper and complicated networks were developed to attain higher accuracy, but with the passage of time these improvements were might able to enhance the accuracy but they did not make neural nets more efficient in terms of size and speed. For instance, in the field of robotics, self-driving as well as augmented reality, those task that need recognition have to be done with precise timely manner and as well as in computationally limited platform.
 	
 The MobileNet architecture uses an approach known as depthwise separable convolutions. Such type of approach is different than the standard convolution. This approach has two steps: first it uses depthwise convolution in which it applies filter to each input channels of the image, secondly it uses pointwise convolution which uses 1x1 convolution to the previous layers from depthwise convolution and then finally combines the outputs of all layers.
 
 In standard convolution two things are happening at the same, that is, process of applying filters and combining resulting in an output. Whereas in MobileNets this same process is broken down into two parts as mentioned already. This splitting of layers helps in the reduction of computation and model size exponentially.
+
+![](images_readme/mobilenet.png)
+
+Comparison With Standard Convolution
 
 
 

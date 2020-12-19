@@ -168,5 +168,5 @@ In standard convolution two things are happening at the same, that is, process o
 
 Comparison With Standard Convolution
 
-
+![](images_readme/comparison.png)
 

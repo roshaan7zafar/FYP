@@ -170,3 +170,6 @@ Comparison With Standard Convolution
 
 ![](images_readme/comparison.png)
 
+# 3.5  Flow Diagram
+
+

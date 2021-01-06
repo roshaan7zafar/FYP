@@ -188,5 +188,5 @@ Android Studio is the official[7] integrated development environment (IDE) for G
 Flir software development kit is provide by the company itself which comprises of wide range of APIs to support Flir developers to develop innovative solutions and applications that can run on mobile apps.
 
 ### Mobile App Screen
-
+![](images_readme/mobile app screen.png)
 

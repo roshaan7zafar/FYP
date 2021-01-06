@@ -197,4 +197,6 @@ Hardware used in the project were seek thermal and FLIR one camera but most of t
 
 ![](images_readme/seekcamera.png)
 
+![](images_readme/flircamera.png)
+
 

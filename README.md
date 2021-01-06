@@ -196,3 +196,5 @@ Flir software development kit is provide by the company itself which comprises o
 Hardware used in the project were seek thermal and FLIR one camera but most of the time the focus was on FLIR camera as it provided software development kit for its custom apps. Seek thermal was mainly used for collecting dataset on which classifier was to be trained.
 
 ![](images_readme/seekcamera.png)
+
+

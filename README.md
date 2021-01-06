@@ -185,6 +185,6 @@ Tensorflow Lite is TensorFlow’s lightweight solution for mobile and embedded d
 Android Studio is the official[7] integrated development environment (IDE) for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.
 
 ### FLIR One Mobile SDK
-Flir software development kit is provide by the company itself which comprises of wide range of APIs to support Flir developers to develop innovative solutions and applications that can run on mobile apps
+Flir software development kit is provide by the company itself which comprises of wide range of APIs to support Flir developers to develop innovative solutions and applications that can run on mobile apps.
 
 

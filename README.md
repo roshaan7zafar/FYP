@@ -189,5 +189,5 @@ Flir software development kit is provide by the company itself which comprises o
 
 ### Mobile App Screen
 
-![](images_readme/mobileappscreen.png=60x60)
+
 

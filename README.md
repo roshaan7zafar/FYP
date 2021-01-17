@@ -237,4 +237,10 @@ The training dataset is 7200 images divided equally into cat, human and car usin
 After having trained the MobileNet model for image classification for 30 epochs the accuracy was satisfactory enough to deploy on the FLIR camera with the help of android studio. The testing accuracy can be clearly be seen in the orange color curve which is approaching to 90 percent. Following test accuracy was obtained as shown below
 
 
+![](images_readme/modelacc.png)
+
+
+
+![](images_readme/confusematix.png)
+
 

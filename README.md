@@ -212,6 +212,11 @@ The software app is the essential part of the project as it displays the result 
 
 In the project Flir one pro Lt camera has been used instead of Seek thermal due to its flexibility that it provides software development kit so that developers can use it according to their desired application. At first the camera is turned ON with its physical button present on it. After that the camera is attached to the android phone and from within the application the discovering button icon is tapped in order for app to detect and discover any hardware that is connected to it and the status will start discovering as shown below
 
+![](images_readme/disstatus.png)
+
+After successful discovery of hardware, the user is required to select connect icon either flir in case if camera is actually attached to the phone or sim 1 which is simulator. After that it will show the connection status whether the camera is connected and taking input feed and displaying device ID as shown below
+
+![](images_readme/constatus.png)
 
 
 

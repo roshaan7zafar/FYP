@@ -241,6 +241,6 @@ After having trained the MobileNet model for image classification for 30 epochs 
 
 
 
-![](images_readme/confusematix.png)
+![](images_readme/confusematrix.png)
 
 

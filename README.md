@@ -224,3 +224,17 @@ After that camera starts getting input feed in real time and classifies the imag
 
 ![](images_readme/carclassification.png)
 
+
+# Chapter 5: Experimental Results
+
+## 5.1 Performance and Tuning Parameters
+
+The training dataset is 7200 images divided equally into cat, human and car using seek thermal camera and test dataset is 654 images collected by Flir thermal camera. During the training the data the model parameters were set to attain best accuracy possible. In regard to this the behavior of non-linearity was also taken into consideration so that while training the data maximum non-linearity behavior, therefore, batch size of 64 was chosen to accommodate the behavior. The Mobilenet architecture was also modified according to the accuracy in which last layer was excluded and softmax activation function was applied with dense units 3 as we need 3 output predictions for our model for each category. Learning rate was chosen to be 0.0001 with the epochs of 30.
+
+
+## 5.2 Accuracy and Evaluation
+
+After having trained the MobileNet model for image classification for 30 epochs the accuracy was satisfactory enough to deploy on the FLIR camera with the help of android studio. The testing accuracy can be clearly be seen in the orange color curve which is approaching to 90 percent. Following test accuracy was obtained as shown below
+
+
+

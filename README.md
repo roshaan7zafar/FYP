@@ -198,5 +198,5 @@ Hardware used in the project were seek thermal and FLIR one camera but most of t
 ![](images_readme/seekcamera.png)	![](images_readme/flircamera.png)
 
 
-
+As mentioned already FLIR camera was the main focus and the app was built with it so that when FLIR gets image feed it classifies the image subsequently.
 

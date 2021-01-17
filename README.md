@@ -204,4 +204,14 @@ As mentioned already FLIR camera was the main focus and the app was built with i
 
 ![](images_readme/comparisoncameras.png)
 
+# Chapter 4: Software App
+
+The software app is the essential part of the project as it displays the result of the classification in real time upon which we trained our model.
+
+## 4.1 Working of Camera and Mobile App
+
+In the project Flir one pro Lt camera has been used instead of Seek thermal due to its flexibility that it provides software development kit so that developers can use it according to their desired application. At first the camera is turned ON with its physical button present on it. After that the camera is attached to the android phone and from within the application the discovering button icon is tapped in order for app to detect and discover any hardware that is connected to it and the status will start discovering as shown below
+
+
+
 

@@ -64,7 +64,7 @@ References
 
 # Chapter 1: Introduction 
 
-# 1.1	Introduction
+## 1.1	Introduction
 Human eyes can only be able to detect that can only be able to detect electromagnetic radiations in the range of visible spectrum while other ranges such as infrared are not visible by our eyes.
 The discovery of the infrared goes back in 1800 by Sir Frederick William Herschel. To see thermal difference between various colors of light, he managed to get sunlight passed through prism glass which created spectrum and consequently observed the temperature of each color. While noticing the temperatures of the colors there was increase in temperature from violet to red.
 Now having the temperature pattern across different colors, he wanted to extend his research beyond the colors especially red color. He concluded that the temperature was higher in this region than the region before.
@@ -74,10 +74,10 @@ The range of infrared radiation is between microwave and visible part of the spe
 
 Visualizing diminished and faded objects has always been a hurdle in human day to day life. It has always been desired that clear and unambiguous things can be seen even if it is dark and in faded light. It’s really important to be aware of surrounding so that one is able to know what’s happening nearby. Therefore, that said, anyone can be able to continue to resume the activities he/she are doing if he/she exactly classifies what objects are there in front of him/her.
 
-# 1.2   Motivation
+## 1.2   Motivation
 It’s natural and easy to do nearly anything in the daylight or if there is sufficient light such that our human eye can easily detect things and see what exactly it is. When you know what exactly you have in nearby environment it becomes easy for you to proceed with you intended activities but things become quite opposite when you want to do same things in the dark because human sight only ranges in visible spectrum.
 
-# 1.3   Scope
+## 1.3   Scope
 The aim of the project is to make a mobile app which will initiated upon connecting FLIR one thermal camera to android phone. After that app will be launched which will thermally receive input in real time and classify them as car, cat and humans.
 The scope of the project can be defined in terms of following objectives:
 
@@ -86,7 +86,7 @@ The scope of the project can be defined in terms of following objectives:
 • Making an android app that takes input feed from FLIR one thermal camera and image classifier is applied on it
 
 
-# 1.4   Objective
+## 1.4   Objective
 Objectives of the project are as follows:
 
 • Data collection with Seek Thermal camera and Flir thermal camera
@@ -99,12 +99,12 @@ Objectives of the project are as follows:
 
 
 # Chapter 2: Thermal and IR Imaging 
-# 2.1  Thermal Imaging Camera
+## 2.1  Thermal Imaging Camera
 The better explain the overview of thermal imaging is shown in the below figure in which there is infrared energy source emitting ‘A’ from object which is directed towards the camera lens ‘B’ and beyond the camera lens there is detector for IR radiation ‘C’. From here the thermal detector passes information which is received by sensor ‘D’ for image to be processed. Sensors finally convert the data from detector into an image ‘E’ which can be watched on monitor or any other screen.
 
 ![](images_readme/thermal_imaging_overview.png)
 
-# 2.2  How Does Thermal Camera Works
+## 2.2  How Does Thermal Camera Works
 Basically talking about thermal imaging, thermal imaging helps viewer in seeing objects that emits radiation. Thermal cameras are used for recording temperature measurements of different objects and then it gives each color according to its extend of heat or radiation emission. In simple terms it gives one overall idea about general heat distributions of the surrounding objects.
 
 Generally, if the object are not emitting much of heat they are given shades of lighter color such as blue or green while those which are warmer object are assigned red or crimson etc.
@@ -114,13 +114,13 @@ Grey scale image is also used by some thermal cameras, for example Cop helicopte
 ![](images_readme/flir_imaging.png)
 
 
-# 2.3  How Its Different From Night Vision
+## 2.3  How Its Different From Night Vision
 Night vision also resemble thermal imaging in some aspect like they both are used during night and dim light areas for visualization but unlike thermal imaging it does not let one know about heat temperature distributions. 
         
 For example, if we talk about real scenario where night vision comes into play is that Cops use it in their helicopters so that they can differentiate the suspect and make him standout from others. This also makes far easier if there is day time and goal is to identify someone which is blending in the surroundings to hide oneself. 
        
 The difference of both visualization is that night vision cameras focuses more on capturing shorter wavelengths of infrared while thermal cameras has ability to capture both longer and shorter wavelengths of infrared.
-# 2.4  Applications of thermal Imaging
+## 2.4  Applications of thermal Imaging
 • Security surveillance
 
 • Tourists exploration in darker areas
@@ -134,19 +134,19 @@ The difference of both visualization is that night vision cameras focuses more o
 
 # Chapter 3: Methodology
 
-# 3.1  System Level Diagram
+## 3.1  System Level Diagram
 
 ![](images_readme/systemlvl.png)
 
 In the system above initially the custom data has been collected with the Flir as well as Seek thermal mobile cameras. After that data acquisition phase comes in which data is acquired in a particular dimension 224x224 and images get normalized in rgb format. Then this data is feed into neural nets in our case which is MobileNets and image classification is applied upon it. From here thae model parameters are fine-tuned so that model accuracy can be evaluated in further stage. After having satisfying enough accuracy, model is deployed on android app. Flir camera is integrated with the help of software development kit (SDK) in order to get camera input feed in our app. Eventually, the image classifier is applied to the incoming feed from the camera that finally displays the result as cat, car and human.
 
-# 3.2  Software
+## 3.2  Software
 Before starting with hardware part, software part has to be prepared so that when its bugs free and it is at its full performance and desired accuracy it could be deployed on hardware.
 
-# 3.2.1  Knowledge base 
+### 3.2.1  Knowledge base 
 An image classifier algorithm is designed using MobileNet architecture whose sole purpose is to run on client side inference without using cloud services. This particular neural net which is known as MobileNet is used due to its light weight and faster speed so that when the algorithm is deployed on FLIR one camera it will easily run the mobile android application without crashing or interruptions.
 
-# 3.3  Data collection
+## 3.3  Data collection
 A total of 7200 training images were collected using seek thermal images for 3 different classes with the help of seek thermal camera and image classification model was trained on them.
 
 ![](images_readme/seek_train.png)
@@ -156,7 +156,7 @@ Similarly, a total of 654 images were collected with FLIR one mobile camera for 
 ![](images_readme/flir_test.png)
 
 
-# 3.4  MobileNet Architecture
+## 3.4  MobileNet Architecture
 
 Convolution neural network, nowadays, can be found nearly in every deep learning and computer vision applications. The trend that has been around for a while was that deeper and complicated networks were developed to attain higher accuracy, but with the passage of time these improvements were might able to enhance the accuracy but they did not make neural nets more efficient in terms of size and speed. For instance, in the field of robotics, self-driving as well as augmented reality, those task that need recognition have to be done with precise timely manner and as well as in computationally limited platform.
 	
@@ -170,28 +170,28 @@ Comparison With Standard Convolution
 
 ![](images_readme/comparison.png)
 
-# 3.5  Flow Diagram
+## 3.5  Flow Diagram
 
 ![](images_readme/flowdiagram.png)
 
-# 3.6 Software Tools
+## 3.6 Software Tools
 
 The software tools used were primarily for developing the mobile application and for training deep learning model.
 
-### Tensorflow Lite Framework
+#### Tensorflow Lite Framework
 Tensorflow Lite is TensorFlow’s lightweight solution for mobile and embedded devices. It lets you run machine-learned models on mobile devices with low latency, so you can take advantage of them to do classification, regression or anything else you might want without necessarily incurring a round trip to a server.
 
-### Android Studio
+#### Android Studio
 Android Studio is the official integrated development environment (IDE) for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.
 
-### FLIR One Mobile SDK
+#### FLIR One Mobile SDK
 Flir software development kit is provide by the company itself which comprises of wide range of APIs to support Flir developers to develop innovative solutions and applications that can run on mobile apps.
 
-### Mobile App Screen
+#### Mobile App Screen
 
 ![](images_readme/mobileappscreen.png)
 
-# 3.7 Hardware
+## 3.7 Hardware
 
 Hardware used in the project were seek thermal and FLIR one camera but most of the time the focus was on FLIR camera as it provided software development kit for its custom apps. Seek thermal was mainly used for collecting dataset on which classifier was to be trained.
 
@@ -200,7 +200,7 @@ Hardware used in the project were seek thermal and FLIR one camera but most of t
 
 As mentioned already FLIR camera was the main focus and the app was built with it so that when FLIR gets image feed it classifies the image subsequently.
 
-# 3.8 Seek and Flir Thermal Camera Specifications
+## 3.8 Seek and Flir Thermal Camera Specifications
 
 ![](images_readme/comparisoncameras.png)
 

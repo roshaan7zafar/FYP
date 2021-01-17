@@ -202,6 +202,6 @@ As mentioned already FLIR camera was the main focus and the app was built with i
 
 # 3.8 Seek and Flir Thermal Camera Specifications
 
-![](images_readme/comparisoncamera.png)
+![](images_readme/comparisoncameras.png)
 
 

@@ -220,7 +220,7 @@ After successful discovery of hardware, the user is required to select connect i
 
 After that camera starts getting input feed in real time and classifies the image as car, cat and human whatever it sees accurate 
 
-![](images_readme/humanclassification.png)
+
 
 ![](images_readme/carclassification.png)
 
